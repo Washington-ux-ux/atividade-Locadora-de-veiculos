@@ -63,6 +63,24 @@ public class Main {
             System.out.println("Opa! Algo deu errado!!!.");
         }
 
+         /*  a) Por que o atributo valorDiaria foi colocado na classe Veiculo e não repetido
+         nas classes Carro e Moto? Explique com base no conceito de Herança.
+
+        R: Por ser algo comum, diminui a redudancia do codigo não tendo
+        que repetir varias vezes no codigo. Passando a Herança ela herda automaticamente.
+
+             b) No método calcularAluguel, a assinatura é a mesma, mas o comportamento muda
+        entre Carro e Moto. Qual pilar da POO permite que tratemos objetos diferentes
+        de maneira uniforme, mas com execuções específicas? Explique.
+
+        R: É o Polimorfismo. é a capacidade de objetos de classes diferentes responderem à
+        mesma  mensagem (método) de maneiras distintas, permitindo tratar objetos de tipos
+        diferentes deforma unificada, mas com comportamentos específicos,
+        tornando o código flexível e reutilizável.
+
+
+        */
+
         sc.close();
     }
 }
